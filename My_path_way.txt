@@ -1,0 +1,50 @@
+This is how i am going to learn DSA.
+
+At first I have registered on 11 week workshop of GEEKSFORGEEKS.
+And now as I am excited about some cool work and coding so with some guidance I am starting with the array from learning part of the workshop
+
+At the first part we are going with defination as obvious.
+So the array is the set of some variables of same datatype in a chain
+
+To define an array in cpp is so simple
+We just need to follow this Syntax given below
+Datatype arrayname[sizeofthearray];
+Where datatype can be any datatype 
+We can give any name to array according to the naming of variables in cpp
+We can mention size of array and if we'll not it will adjust the size as per further use of that array
+
+To assign the value or values to the array
+We will follow some of the methods like
+The first and very simple method is to assign value while defining or declaration of the array
+Datatype arrayname[size] = { value1, value2, value3,....};
+Another method is to assign value while main part of the program or after defining at any part of the code.
+Here is how we do that
+Arrayname = { value1, value2, value3,....};
+Or we can assign value to a specific index of array
+Arrayname[I] = value;
+Where I is the index of the array
+And we can do that also like this way
+Arrayname[i:j] = { value1, value2, value(j-i)};
+
+After assigning the values we have to access those also
+So to access this values we will use the same way as we were assigning the values in our last method
+So we will treat each element of the array as a seprate variable which hase name as the name of the array but with its index behind it in [] breakers
+Like if we can print the 6th element of an array this way
+printf("%d", array[5]);
+
+Now we have learned how to find the specific element in an array
+So it will go like this
+We will loop the array for that many times as many as the number of elements do we have in our array
+And each time we will check all the elements using the condition as if it's same to the element we are searching for or not
+So the code will be like this
+For(i=0; i<n; i++){
+    if(i == value){
+        printf("we find it on %d", i);
+    }
+    Else{
+        printf("its not on %d", i);
+    }
+}
+
+
+
